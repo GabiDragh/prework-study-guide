@@ -44,6 +44,8 @@
         <h2>Git</h2>
         <ul>
           <li>git status: checks what branch we are currently on</li>
+          <li>git checkout main switch to the main branch</li>
+          <li>git pull origin main: Pull the remote main branch into the local main branch</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>git commit -m: leaves a message regarding changes/debugging</li>
           <li>git config --global user.email "you@example.com": set the account's default identity</li>
@@ -56,8 +58,47 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
-        </ul>
+          <li>A variable is a container where code data is stored.</li>
+ <li>VAR in JS decribes a variable. VAR name = "data" </li> 
+ <li>var topics="HTML, CSS, Git, JavaScript", where "" includes a string in the variable topics.</li>
+ <li>All JavaScript lines end in semicolon ;</li>
+ <li>console.log(topics); - console.log is the method used to output a message to the web console by adding an argument (the value of topics).</li>
+ <li>Console = test environment for checking code.</li>
+ <li>.log = method where the computer executes a set of instructions and it outputs anything in the paranthesis to the console.</li>
+ <li>script.js file is linked in the <body> element, unlike style.css in the <head>.</li>
+ <li>Console.log method makes it easier for developers to test code and it is used daily to debug</li>
+ <li>Control flow - the order a computer executes codes in a script. In JS it executes top to bottom. </li>
+ <li>First we define topics then tell the computer to log it in the console. If not, 'undefined' appears in the console.</li>
+ <li>Control flow can be interrupted by conditional statements and loops that control the order in which the code is executed or if executed at all.</li>
+ <li>IF statement introduces decision-making into a code. 
+  if (condition) {
+   // block of code to be executed if condition is truthy
+  }</li>
+ <li>Falsy value - 0, -0, On, "", null, undefined, NaN or Boolean data type with the value of False. All others are truthy</li>
+ <li>=== - stricy equality operator that checks if two values are equal (case sensitive).</li>
+ <li>Array - group of related data or a single variable used to hold a group of related data.
+  Example: var studentInfo = ["Lu", 54, true]; - "Lu" is a string, therefore it is written between quotation marks.</li>
+ <li>Individual data items inside an array contain one more piece of information: an index (the location of the data item in the array). Index starts at 0.</li>
+ <li>FOR loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. It can be interrupted by an IF statement.</li>
+ <li>FOR loop - to use it we need the shape's indes and the array's lenght (inportant as the loops needs to know how many times the code will run until there are no more ites left in the array). </li>
+ <li>Lenght of an array - built-in property</li>
+ <li>FOR loop contains 3 statements: - starting point, condition and final statement. Statement separated by semicolon ; 
+  Example: var topics = ["HTML", "CSS", "Git", "JavaScript"];
+  for (var x = 0; x < topics.length; x++){
+      console.log(topics[x]);
+  }</li>
+ <li>Commenting out code makes it inactive without deleting it. It needs /* */ before and after the block of code.</li>
+ <li>Function - set of instructions that tells the computer how to perform a certain task.</li>
+ <li>A function's name is followed by parantheses (). </li>
+ <li>The code to be executed is written between curly brakets {}.
+  Example: function helloWorld() {
+    console.log("Hello, world, I am a function!")
+   }</li>
+ <li>Declaring a function is not enough for the code to execute it, instead we need to also call it in the place we need it to execute.</li>
+ <li>Math.random - helps select a random number
+  Example: var randomTopic = topics[Math.floor(Math.random() * topics.length)];
+  var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];</li>
+      </ul>
       </section>
     </main>
 
